@@ -1,0 +1,23 @@
+{
+  "name": "theme-dark",
+  "displayName": "Theme-Dark",
+  "description": "Zombie-Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "icon": "zombie.png",
+  "author": "Zombie-Dark",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Been",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Been-color-theme.json"
+      }
+    ]
+  }
+}
